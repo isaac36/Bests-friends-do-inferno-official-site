@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+
+*{ /*Asterisco quer dizer q ta englobando tudo*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right,#F2B43D,#FCA63F,#E68646,#FC6F3F,#F2503D);
+    
+    /*
+     
+    font-family sao as possiveis fontes q o dispositivo poderá usar com uma importancia maior para esquerda;
+
+    A w3c aconselha a usar apenas "px" e "em"
+    em = 16px (geralmente) 
+    
+    
+    
+    px é fixo
+    em é porcentagem
+
+
+    font-size: 1em
+    font-weight: bold ou normal
+    font-style:  italico ou nao
+    text-decoration: underline
+
+    da pra simplificar tudo isso numa so linda de codigo com: "font:"
+
+    font-style > font-weight > font-size > font-family 
+    */
+}
+
+h1{
+font: normal bold 2em Arial;
+
+
+
+
+    text-align: center;
+    color: #F2503D;
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 15px #852c22;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
