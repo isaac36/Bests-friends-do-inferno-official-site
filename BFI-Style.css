@@ -195,6 +195,7 @@ border-radius: 50%;
 #home{
     text-align: center;
     margin: auto;
-    font-size: 64px;
-    width: 100%;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
