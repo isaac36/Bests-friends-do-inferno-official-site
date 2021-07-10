@@ -17,7 +17,7 @@ console.log(bola.src)
 
 
 msghora = window.document.getElementsByClassName('msg')[0]
-msghora.innerText=`Já são ${hora} horas man NAM!`
+msghora.innerText=`Já são ${hora} horas man NAM! MUDEI`
 
 
 
