@@ -133,24 +133,28 @@ article{
 
 
 section{
-    background-color: white;
+
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 40%;
     margin: auto;
-
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.548);
+    /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.548);*/
+    /*background-color: var(--cor2);*/
 }
 
-#msg{
+.msg{
+    padding-top: 50px;
+    font-weight: bold;
     margin: auto;
-    width: 200px;
+    text-align: center;
+    font-size: 20pt;
+
 }
 
 footer{
 
 text-align: center;
-margin-top: 50px;
+margin: 30px;
 }
 
 #foto{
@@ -161,13 +165,6 @@ margin-top: 50px;
 
 }
 
-#msg{
-
-    margin: auto;
-    text-align: center;
-
-
-}
 
 
 
@@ -196,6 +193,6 @@ border-radius: 50%;
 
 #home{
     text-align: center;
-    margin: 10px;
+    margin: 25px;
     font-size: 64px;
 }

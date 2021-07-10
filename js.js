@@ -11,95 +11,103 @@ function add(){
     bola.src=`bfi${hora}.jpg`
 }
 
-
-
 bola.src=`bfi${hora}.jpg`
 
 console.log(bola.src)
 
 
+msghora = window.document.getElementsByClassName('msg')[0]
+msghora.innerText=`Já são ${hora} horas man NAM!`
 
 
-/*
-switch(hora){
 
-case(21): bola.src="fotos_redondas/bfi4.png"
-break
 
-case(22): bola.src="fotos_redondas/bfi4.png"
-break
 
-case(23): bola.src="fotos_redondas/bfi3.png"
-break
+msg = window.document.getElementsByClassName('msg')[1]
 
-case(0): bola.src="fotos_redondas/bfi2.png"
-break
 
-case(1): bola.src="fotos_redondas/bfi1.png"
-break
 
-case(2): bola.src="fotos_redondas/bfi5.png"
-break
+switch (hora){
 
-case(3): bola.src="fotos_redondas/bfi5.png"
-break
 
-case(4): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(5): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(6): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(7): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(8): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(9): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(10): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(11): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(12): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(13): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(14): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(15): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(16): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(17): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(18): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(19): bola.src="fotos_redondas/bfi5.png"
-break
-
-case(20): bola.src="fotos_redondas/bfi5.png"
-break
-
-default: bola.src="fotos_redondas/bfi5.png"
-
-break
-
+    case(21): msg.innerText="Hora de hackear os outros"
+    break
+    
+    case(22): msg.innerText="Hora do exercício noturno"
+    break
+    
+    case(23): msg.innerText="Hora de assaltar a geladeira"
+    break
+    
+    case(0): msg.innerText="Hora de ir mimir"
+    break
+    
+    case(1): msg.innerText="Hora de sonhar com a perfeita"
+    break
+    
+    case(2): msg.innerText="Hora de fazer pose enquanto dorme"
+    break
+    
+    case(3): msg.innerText="Hora dos fantasmas, cuidado"
+    break
+    
+    case(4): msg.innerText="Hora de pular uns muros"
+    break
+    
+    case(5): msg.innerText="Hora da soneca do gato"
+    break
+    
+    case(6): msg.innerText="Hora de pensar em ressuscitar"
+    break
+    
+    case(7): msg.innerText="Bundinha Grupo!"
+    break
+    
+    case(8): msg.innerText="Hora de se arrumar"
+    break
+    
+    case(9): msg.innerText="Hora de jogar quete com o gulão"
+    break
+    
+    case(10): msg.innerText="Hora de falar com os broder"
+    break
+    
+    case(11): msg.innerText="Hora da gameplay"
+    break
+    
+    case(12): msg.innerText="Hora de mandar todo mundo se fuder"
+    break
+    
+    case(13): msg.innerText="Hora da putaria"
+    break
+    
+    case(14): msg.innerText="Hora de fazer pose"
+    break
+    
+    case(15): msg.innerText="Hora da fotinha bala"
+    break
+    
+    case(16): msg.innerText="Hora de correr 10 metros e morrer"
+    break
+    
+    case(17): msg.innerText="Hora de chapar"
+    break
+    
+    case(18): msg.innerText="Hora de mandar tomar no cú"
+    break
+    
+    case(19): msg.innerText="Hora de estudar pro MEC"
+    break
+    
+    case(20): msg.innerText="Hora de fazer carinho no gatim"
+    break
+    
+    default: msg.innerText="Mensagem padrao"
+    
+    break
+    
+    
 
 
 }
-*/
+
