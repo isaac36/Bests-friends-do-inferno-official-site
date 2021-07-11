@@ -156,3 +156,33 @@ footer{
     margin-bottom: 25px;
     color:var(--cor0);
 }
+
+#botao{
+    background-color: var(--cor1);
+    border-color: var(--cor0);
+    width: 20%;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.726);
+    margin: 20px;
+}
+
+#botao:active{
+    color: white;
+    background-color: var(--cor0);
+    border-color: var(--cor0);
+    width: 20%;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.726);
+}
+
+#img{
+width: 100%;
+height: 100%;
+}
+
+#tamanho{
+
+width: 250px;
+height: 200px;
+margin: auto;
+}
