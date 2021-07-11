@@ -147,3 +147,14 @@ footer{
     
     
 }
+
+#quizes{
+
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:var(--cor0);
+
+}
