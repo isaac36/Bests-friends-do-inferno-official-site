@@ -75,7 +75,7 @@ switch (hora){
     case(11): msg.innerText="Hora da gameplay"
     break
     
-    case(12): msg.innerText="Hora de mandar todo mundo se fuder"
+    case(12): msg.innerText="Hora mandar tomar banho"
     break
     
     case(13): msg.innerText="Hora da putaria"
@@ -90,10 +90,10 @@ switch (hora){
     case(16): msg.innerText="Hora de correr 10 metros e morrer"
     break
     
-    case(17): msg.innerText="Hora de chapar"
+    case(17): msg.innerText="Hora do São Braz"
     break
     
-    case(18): msg.innerText="Hora de mandar tomar no cú"
+    case(18): msg.innerText="Hora do dedo que não é legal"
     break
     
     case(19): msg.innerText="Hora de estudar pro MEC"
